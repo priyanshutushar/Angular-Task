@@ -1,0 +1,11 @@
+<h2>Student (Child Component)</h2>
+
+<form [formGroup] = "student" (ngSubmit) = "submit()">
+  <p>
+    <label for="studentName">Enter student name:</label>
+    <input type="text" id="sname" name="sname" formControlName="studentName">
+  </p>
+  <p>
+    <button type="submit">Submit</button>
+  </p>
+</form>
