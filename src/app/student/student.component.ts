@@ -7,12 +7,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./student.component.scss']
 })
 export class StudentComponent implements OnInit {
-[x: string]: any;
-
-  @Input()
-  studentName:string;
-  name:any;
-
+  
   @Output() messageEvent = new EventEmitter<string>();
 
   student = new FormGroup({
